@@ -4,7 +4,7 @@
 
 게임 종료 후 게임 기록에 대한 데이터를 암호화
 
-~개발 환경~
+[개발 환경]
 Apache 2.4
 php7
 MySQL5.7
@@ -70,8 +70,8 @@ mysqld:[ERROR] Found oprion without proceding group in config file C:\mysql\my.i
 
 ->my.ini 파일 내용 (하단의 내용을 입력하여 저장할것. 폴더 경로는 백슬래시(\)가 아닌 슬래시(/)로 써줘야함)
 [mysqld]
-# set basedir to your intallation path
+#set basedir to your intallation path
 basedir=C:/mysql
-# set datadir to the location of your data directory
+#set datadir to the location of your data directory
 datadir=C:/mysql/data
 port=3306
