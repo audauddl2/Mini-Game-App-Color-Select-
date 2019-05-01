@@ -9,7 +9,7 @@
 2. php7
 3. MySQL5.7
 
-*Apache 2.4 설치방법*
+# *Apache 2.4 설치방법*
 아파치 설치 -> Microsoft Visual C++ 2015 Redistributable  설치를 선행한다.
 1. 아파치 2.4 설치 httpd -2.4.23-win64-VC14-zip 파일을 받는다
 2. 아파치 집 파일의 아파치24를 c 드라이브에 저장한다 . 
@@ -24,13 +24,13 @@
 11. httpd -k start 해서 서비스 시작
 12. 끝
 
-*Apache 명령어*
+# *Apache 명령어*
 httpd -k start //아파치 서비스 시작
 httpd -k stop // 아파치 서비스 종료(중지)
 httpd.exe -k restart // 아파치 서비스 재시작
 httpd.exe -k uninstall //아파치 서비스 제거
 
-*php7 설치 방법*
+# *php7 설치 방법*
 php 설치 및 아파치 연동 PHP7.x VC14 버전 설치함 아파치 버전과 동일해야함 VC14
 1. c:\php7 로 저장한다.
 2. php 폴더 안에 php.ini-production 파일을 복사해서 복사한 파일의 이름을 php.ini 이름으로 변경
@@ -50,7 +50,7 @@ AddHandler application/x-httpd-php .php
 9. phpinfo.php -> <?php phpinfo()?> 작성후 주소창에 localhost/phpinfo.php 
 안된다면 재부팅 한다 . 아니면 재배포 가능 패키지를 32비트로 교체해서 진행해본다.
 
-*MySQL5.7 설치방법*
+# *MySQL5.7 설치방법*
 1. https://dev.mysql.com/downloads/mysql/ 에 접속하여 5.7버전 다운로드
 2. MySQL설치 경로(MySQL폴더 내 bin 폴더까지)를 환경변수 등록작업한다. -> 명령프롬프트(관리자)에서 MySQL 명령어를 입력하여 실행 가능함
 3. MySQL폴더 내에 옵션 파일 생성 (my.ini) 파일 생성시 인코딩 타입 ANSI or ASCII로 설정할 것.
