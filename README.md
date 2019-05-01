@@ -69,9 +69,9 @@ mysqld:[ERROR] Found oprion without proceding group in config file C:\mysql\my.i
 
 
 ->my.ini 파일 내용 (하단의 내용을 입력하여 저장할것. 폴더 경로는 백슬래시(\)가 아닌 슬래시(/)로 써줘야함)
-[mysqld]
-1. #set basedir to your intallation path
-2. basedir=C:/mysql
-3. #set datadir to the location of your data directory
-4. datadir=C:/mysql/data
-5. port=3306
+1. [mysqld]
+2. #set basedir to your intallation path
+3. basedir=C:/mysql
+4. #set datadir to the location of your data directory
+5. datadir=C:/mysql/data
+6. port=3306
