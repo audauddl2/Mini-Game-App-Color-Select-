@@ -25,10 +25,10 @@
 12. 끝
 
 # *Apache 명령어*
-httpd -k start //아파치 서비스 시작
-httpd -k stop // 아파치 서비스 종료(중지)
-httpd.exe -k restart // 아파치 서비스 재시작
-httpd.exe -k uninstall //아파치 서비스 제거
+1. httpd -k start //아파치 서비스 시작
+2. httpd -k stop // 아파치 서비스 종료(중지)
+3. httpd.exe -k restart // 아파치 서비스 재시작
+4. httpd.exe -k uninstall //아파치 서비스 제거
 
 # *php7 설치 방법*
 php 설치 및 아파치 연동 PHP7.x VC14 버전 설치함 아파치 버전과 동일해야함 VC14
@@ -42,9 +42,9 @@ extension_dir = "C:/php7/ext" << 저장하고 빠져나온다
 7. 그리고 폴더 맨아래에 다음 구문을 추가한다.
 
 PHPIniDir "C:/php7"
-LoadModule php7_module "C:/php7/php7apache2_4.dll"
-AddType application/x-httpd-php .html .php
-AddHandler application/x-httpd-php .php
+1. LoadModule php7_module "C:/php7/php7apache2_4.dll"
+2. AddType application/x-httpd-php .html .php
+3. AddHandler application/x-httpd-php .php
 
 8.아파치 서비스 재시작 한다 . httpd -k restart 입력 
 9. phpinfo.php -> <?php phpinfo()?> 작성후 주소창에 localhost/phpinfo.php 
@@ -70,8 +70,8 @@ mysqld:[ERROR] Found oprion without proceding group in config file C:\mysql\my.i
 
 ->my.ini 파일 내용 (하단의 내용을 입력하여 저장할것. 폴더 경로는 백슬래시(\)가 아닌 슬래시(/)로 써줘야함)
 [mysqld]
-#set basedir to your intallation path
-basedir=C:/mysql
-#set datadir to the location of your data directory
-datadir=C:/mysql/data
-port=3306
+1. #set basedir to your intallation path
+2. basedir=C:/mysql
+3. #set datadir to the location of your data directory
+4. datadir=C:/mysql/data
+5. port=3306
