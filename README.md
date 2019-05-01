@@ -5,9 +5,9 @@
 게임 종료 후 게임 기록에 대한 데이터를 암호화
 
 [개발 환경]
--Apache 2.4
--php7
--MySQL5.7
+1. Apache 2.4
+2. php7
+3. MySQL5.7
 
 *Apache 2.4 설치방법*
 아파치 설치 -> Microsoft Visual C++ 2015 Redistributable  설치를 선행한다.
