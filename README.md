@@ -1,4 +1,4 @@
-# Mini-Game-App-Color-Select-
+# MiniGameApp-ColorSelect
 
 틀린 색상 찾기 App 입니다.
 
