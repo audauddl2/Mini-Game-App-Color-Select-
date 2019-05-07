@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="15dp"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="랭킹"
+        android:textSize="30sp"
+        android:textColor="#005ff1"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:text="순위"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:text="이름"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:text="기록"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_main_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33888888"
+        android:layout_weight="9" />
+
+</LinearLayout>
