@@ -18,10 +18,10 @@
 
 ### 설계 결과 상세내용
 ![devResult1](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devResult1.JPG)
-![devResult2](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devResult1.JPG)
+![devResult2](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devResult2.JPG)
 
 ### 결론
-![devResult3](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devResult1.JPG)
+![devResult3](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devResult3.JPG)
 
 [개발 환경]
 1. Android Studio
