@@ -4,11 +4,33 @@
 
 게임 종료 후 게임 기록에 대한 데이터를 암호화
 
+## 목표
+1. 웹 서버와 데이터베이스의 연동을 통한 미니게임 APP 개발
+2. 개발 및 실행 과정에서 발생하는 보안 취약점 점검과 보안 기능 구현
+
+
+## 설계 환경
+![DevEnv](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devEnv.JPG)
+
+## 설계 내용 및 결과
+### 설계 내용
+![devContent](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devContent.JPG)
+
+### 설계 결과 상세내용
+![devResult1](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devResult1.JPG)
+![devResult2](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devResult1.JPG)
+
+### 결론
+![devResult3](https://github.com/doorisopen/MiniGameApp-ColorSelect/blob/master/img/MiniGameApp_devResult1.JPG)
+
 [개발 환경]
 1. Android Studio
 2. Apache 2.4
 3. php7
 4. MySQL5.7
+
+
+
 
 # *Apache 2.4 설치방법*
 아파치 설치 -> Microsoft Visual C++ 2015 Redistributable  설치를 선행한다.
